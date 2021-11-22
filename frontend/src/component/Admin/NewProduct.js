@@ -29,12 +29,9 @@ const NewProduct = ({ history }) => {
 
   const categories = [
     "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
+    "Home Appliences",
     "Camera",
-    "SmartPhones",
+    "Smart Phones & Watches ",
   ];
 
   useEffect(() => {

@@ -12,21 +12,18 @@ import MetaData from "../layout/MetaData";
 
 const categories = [
   "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
+  "Home Appliences",
   "Camera",
-  "SmartPhones",
+  "Smart Phones & Watches ",
 ];
 
-const Products = ({ match }) => {
+const  Products = ({ match }) => {
   const dispatch = useDispatch();
 
   const alert = useAlert();
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [price, setPrice] = useState([0, 25000]);
+  const [price, setPrice] = useState([0, 2500000]);
   const [category, setCategory] = useState("");
 
   const [ratings, setRatings] = useState(0);
