@@ -12,7 +12,7 @@ const Contact = () => {
         <Button>Contact: yashika@gmail.com</Button>
       </a>
       <a className="mailBtn" href="mailto:crabthe64@gmail.com">
-        <Button>Contact: vachas@gmail.com</Button>
+        <Button>Contact: vachaspati@gmail.com</Button>
       </a>
       <a className="mailBtn" href="mailto:crabthe64@gmail.com">
         <Button>Contact: tarini@gmail.com</Button>
