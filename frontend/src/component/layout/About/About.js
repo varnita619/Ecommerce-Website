@@ -16,30 +16,32 @@ const About = () => {
 
         <div>
           <div>
-            <Avatar
+            {/* <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
               src="https://res.cloudinary.com/tripleayt/image/upload/v1631555947/products/jpyibarlaxawvcvqjv5b.png"
               alt="Founder"
-            />
-            <Typography>Abhishek Singh</Typography>
+            /> */}
+            <Typography>Varnita Makrariya</Typography>
+            <Typography>Yashika Gupta</Typography>
+            <Typography>Vachaspti Sharma</Typography>
+            <Typography>Tarini Shrivastava</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Instagram
             </Button>
             <span>
-              This is a sample wesbite made by @meabhisingh. Only with the
-              purpose to teach MERN Stack on the channel 6 Pack Programmer
+              This is a sample wesbite. 
             </span>
           </div>
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
+              href="#"
               target="blank"
             >
               <YouTubeIcon className="youtubeSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="#" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>
